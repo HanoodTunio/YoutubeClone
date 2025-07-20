@@ -4,12 +4,17 @@
   "description": "Youtube clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "backend",
     "database"
   ],
   "author": "hanood",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "nodemon": "^3.1.10"
+  }
 }
